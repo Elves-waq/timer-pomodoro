@@ -1,0 +1,140 @@
+body{
+   
+    box-sizing: border-box;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFF; 
+    width: 100%;
+    height: 100%;
+    max-width: 620px;
+    max-height: 500px;
+   
+}
+.area-geral{
+    width: 600px;
+    height: 400px;
+    background-color: #999;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* area dos apresentadores de valor do temporizador */
+.area--timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(235, 104, 104);
+    width: 200px;
+    height: 90px;
+    border-radius: 15px;
+    margin-top: -40px;
+}
+.timer--value-minute ,.timer--meio ,.timer--value-second{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.area--interval{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(105, 224, 105);
+    width: 200px;
+    height: 90px;
+    border-radius: 10px;
+    margin-top: -40px;
+}
+.interval--value-minute , .interval--value-second{
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+/* area dos controles da area */
+
+.control-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    margin-top: 15px;
+    padding: 10px;
+    
+}
+.retornar-control{
+    display: none;
+    background-color:rgb(58, 189, 58);
+    color: #FFF;
+    padding:10px 20px;
+    border: 1px solid #0f0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.retornar-control-interval{
+    display: none;
+    background-color:rgb(58, 189, 58);
+    color: #FFF;
+    padding:10px 20px;
+    border: 1px solid #0f0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.play-control{
+    display: block;
+    background-color:rgb(58, 189, 58);
+    color: #FFF;
+    padding:10px 20px;
+    border: 1px solid #0f0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.pause-control{
+    background-color: rgb(219, 61, 61);
+    color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #f00;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.restart-control{
+    background-color: rgb(197, 197, 46);
+    color: #FFF;
+    padding: 10px 20px;
+    border: 1px solid #ff0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.area--set-value{
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin-top: 20px;
+}
+.title--areas{
+    font-size: 16px;
+    font-weight: bold;
+}
+#timer--area-valor, #interval--area-valor{
+    border:1px solid #333;
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+.area--msg{
+    height: 40px;
+    color: #f00;
+    font-weight: bold;
+    font-size: 18px;
+}

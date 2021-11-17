@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Timer Pomodoro</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Timer Pomodoro</h1>
+        <div class="area-geral">
+            <div class="area--timer">
+                <span class="timer--value-minute"></span>
+                <span class="timer--meio">:</span>
+                <span class="timer--value-second"></span>
+            </div>
+            <div class="area--interval" >
+               <span class="interval--value-minute"></span>
+               <span class="timer--meio">:</span>
+                <span class="interval--value-second"></span>
+            </div>
+            <div class="control-area">
+                <div class="control--retornar">
+                    <button class="retornar-control">Retornar</button>
+                </div>
+
+                <div class="control--play-area">
+                    <button class="play-control" >Play</button>
+                </div>
+                <div class="control--pause-area">
+                    <button class="pause-control">Pause</button>
+                </div>
+                <div class="control--restart-area">
+                    <button class="restart-control">restart</button>
+                </div>
+
+            </div>
+            <div class="area--set-value">
+                <div class="area--timer-select">
+                    <legend class="title--areas">Escolha sua jornada:</legend>
+                    <input type="number" name="timer" id="timer--area-valor"> 
+                </div>
+
+                <div class="area--set-interval">
+                    <legend class="title--areas">Escolha seu intervalo:</legend>
+                    <input type="number" name="interval" id="interval--area-valor">
+                </div>
+            </div>
+            <div class="area--msg">
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
